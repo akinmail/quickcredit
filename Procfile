@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: conda config --append channels conda-forge && gunicorn app:app
